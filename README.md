@@ -1,16 +1,18 @@
-## Hi there 👋
+# godexter
 
-<!--
-**godexter/godexter** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```golang
+type Info struct {
+	Username string
+	Age  uint8
+	ProgrammingLanguages [2]string
+}
 
-Here are some ideas to get you started:
+func NewInfo() *Info {
+	return &Info{
+		Username: "dexter",
+		Age: 16,
+		ProgrammingLanguages: [2]string{"Go", "JavaScript"},
+	}
+}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```
