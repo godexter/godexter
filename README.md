@@ -4,7 +4,7 @@
 type Info struct {
 	Username string
 	Age  uint8
-	ProgrammingLanguages [2]string
+	Knowledge [2]string
 }
 
 func NewInfo() *Info {
